@@ -1,0 +1,70 @@
+:root{
+    --mainColor:#15479c;
+    --secondaryColor:#a1ccff;
+}
+#add-course{
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+#add-course h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+#add-course .container{
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.row{
+    justify-content: space-between;
+    align-items: center;
+}
+.add-form{
+    min-height: 400px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-group{
+    display: flex;
+    margin-bottom: 20px !important;
+}
+.label{
+    text-transform: capitalize;
+    font-size: 20px;
+    width: fit-content;
+    margin-right: 20px;
+}
+.inputt{
+    width: 80% !important;
+}
+#add-course .btn{
+    width: 150px;
+    background-color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #15479c;
+    border: none;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    box-shadow: 2px 2px 3px #afafaf, -2px -2px 3px #afafaf;
+}
+#add-course .btn:hover{
+    color: #15479c !important;
+    border: none;
+}

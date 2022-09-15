@@ -1,0 +1,33 @@
+#current-courses{
+    width: 100vw;
+    min-height: 100vh;
+}
+#current-courses h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+#current-courses .container{
+    margin-top: 50px;
+}
+#current-courses .btn{
+    background-color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #15479c;
+    border: none;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    box-shadow: 2px 2px 3px #afafaf, -2px -2px 3px #afafaf;
+}
+#current-courses .btn:hover{
+    color: #15479c !important;
+    border: none;
+    box-shadow: 2px 2px 3px #afafaf, -2px -2px 3px #afafaf, -1pc -1pc #afafaf;
+}
