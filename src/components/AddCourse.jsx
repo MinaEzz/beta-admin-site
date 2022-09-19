@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react'
-import { Form, Button } from 'react-bootstrap'
-import "../css/add-course.css"
+import React, { Fragment } from 'react';
+import { Form, Button } from 'react-bootstrap';
+import "../css/add-course.css";
 
 function AddCourse() {
   return (

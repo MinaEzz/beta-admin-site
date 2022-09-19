@@ -1,9 +1,9 @@
 .header{
-    min-height: 80px;
-    padding: 20px !important;
+    min-height: 74px;
+    background-color: #15479c;
 }
 .logo{
-    width: 70px;
+    width: 60px;
     box-shadow: -2px -2px 4px #afafaf, 2px 2px 4px #afafaf;
     border-radius: 10px;
     -webkit-border-radius: 10px;

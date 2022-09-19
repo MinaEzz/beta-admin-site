@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react'
-import {Navbar} from "react-bootstrap"
-import "../css/header.css"
+import React, { Fragment } from 'react';
+import {Navbar} from "react-bootstrap";
+import "../css/header.css";
 
 function Header() {
   return (

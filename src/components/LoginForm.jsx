@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 import {Form} from "react-bootstrap";
 import { Link } from 'react-router-dom';
-import "../css/login-form.css"
+import "../css/login-form.css";
 
 function LoginForm() {
 return (
